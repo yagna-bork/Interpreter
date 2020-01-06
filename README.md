@@ -15,7 +15,7 @@ Every program must:
 # How do I run it?
 ## Dependencies
 
-* Javacc: [download](https://javacc.github.io/javacc/)
+* Javacc: [Download](https://javacc.github.io/javacc/)
 * Java
 
 ## Steps
