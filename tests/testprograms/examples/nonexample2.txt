@@ -1,0 +1,4 @@
+DEF PP xx { 3*Q(xx)+R(6*Q(5)) } ;
+DEF MAIN { PP(2) } ;
+DEF Q x { x } ;
+DEF R x { x+2 } ;

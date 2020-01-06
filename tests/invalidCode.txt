@@ -1,0 +1,1 @@
+DEF SMTH s { 3*Q()*NAH(a,Q(5)) } ; 
