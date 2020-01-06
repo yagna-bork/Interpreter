@@ -6,11 +6,15 @@ This interpreter allows you to write code that performs addition, multiplication
 
 Every program must:
 
-* Define a main function
-* Main function must return a valid  
-* Only non-negative integers, function call, multiplication and addition are valid syntax
+* Must define MAIN()
+* DEF MAIN { A(1) } ; //valid main function
+* DEF A x { x+1 } ; //valid function with parameter
+* FUNCTION NAMES ARE UPPER CASE
+* parameters are lower case
+* ~~1.0,2.1,-3~~ are invalid
+* ~~-, /~~ are invalid operations
 * Functions being called must be defined
-* Program can detect infinite left and right recursion and throws a `DIVERGENCE` error
+* Interpreter can detect infinite left and right recursion and prints `DIVERGENCE` to stdout 
 
 # How do I run it?
 ## Dependencies
