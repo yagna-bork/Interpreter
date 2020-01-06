@@ -1,4 +1,4 @@
-# Interpreter for non-negative calculations
+# Interpreter for non-negative arithmetic
 
 This interpreter allows you to write code that performs addition, multiplication, order of operations, parenthesis, function definition and function calling with arguments for non-negative integers
 
