@@ -11,8 +11,8 @@ Every program must:
 * DEF A x { x+1 } ; //valid function with parameter
 * FUNCTION NAMES ARE UPPER CASE
 * parameters are lower case
-* ~~1.0,2.1,-3~~ are invalid
-* ~~-, /~~ are invalid operations
+* ~~1.0,2.1,-3~~ are invalid numbers
+* ~~minus, division~~ are invalid operations
 * Functions being called must be defined
 * Interpreter can detect infinite left and right recursion and prints `DIVERGENCE` to stdout
 
