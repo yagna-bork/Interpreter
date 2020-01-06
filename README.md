@@ -19,7 +19,7 @@ Every program must:
 # How do I run it?
 ## Dependencies
 
-* [Javacc](https://javacc.github.io/javacc/) (Put in same file as Interpreter.jj) 
+* [Javacc](https://javacc.github.io/javacc/) (Put in same file as Interpreter.jj)
 * Java
 
 ## Steps
@@ -27,4 +27,4 @@ Every program must:
 1. Create interpreter: `javacc-6.0/bin/javacc Interpreter.jj`
 2. Compile java classes: `javac *.java`
 3. Run test files: `java Interpreter < tests/validFiles.txt`
-4. Your code just got interpreted!
+4. Your code just got interpreted and if its valid, the result will be displayed!
