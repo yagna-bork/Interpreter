@@ -14,12 +14,12 @@ Every program must:
 * ~~1.0,2.1,-3~~ are invalid
 * ~~-, /~~ are invalid operations
 * Functions being called must be defined
-* Interpreter can detect infinite left and right recursion and prints `DIVERGENCE` to stdout 
+* Interpreter can detect infinite left and right recursion and prints `DIVERGENCE` to stdout
 
 # How do I run it?
 ## Dependencies
 
-* Javacc: [Download](https://javacc.github.io/javacc/)
+* [Javacc](https://javacc.github.io/javacc/) (Put in same file as Interpreter.jj) 
 * Java
 
 ## Steps
